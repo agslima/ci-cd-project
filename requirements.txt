@@ -1,18 +1,18 @@
 # Werkzeug keeps breaking Flask!
-Werkzeug==2.1.2
+Werkzeug==2.2.3
 
 # Runtime dependencies
-Flask==2.1.2
+Flask==2.2.5
 python-dotenv==0.20.0
 
 # Runtime tools
-gunicorn==20.1.0
+gunicorn==21.2.0
 honcho==1.1.0
 
 # Code quality
 pylint==2.14.0
 flake8==4.0.1
-black==22.3.0
+black==24.3.0
 
 # Testing dependencies
 nose==1.3.7
@@ -20,4 +20,8 @@ pinocchio==0.4.3
 coverage==6.3.2
 
 # Utilities
-httpie==3.2.1
+httpie==3.2.3
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
