@@ -1,12 +1,12 @@
 # Werkzeug keeps breaking Flask!
-Werkzeug==2.2.3
+Werkzeug==2.3.8
 
 # Runtime dependencies
 Flask==2.2.5
 python-dotenv==0.20.0
 
 # Runtime tools
-gunicorn==21.2.0
+gunicorn==22.0.0
 honcho==1.1.0
 
 # Code quality
